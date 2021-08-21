@@ -8,7 +8,7 @@ import Two from "../Two/Two";
 
 export default function One(): JSX.Element {
 
-    const {color} = useContextSelector(ThemeContext, v => v)
+    const {color} = useContext(ThemeContext)
 
     useEffect(() => {
         console.log('Component One', color);

@@ -1,5 +1,5 @@
-// import { createContext } from "react"
-import { createContext } from 'use-context-selector';
+import { createContext } from "react"
+// import { createContext } from 'use-context-selector';
 
 export type State = {
     color?: string;

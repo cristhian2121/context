@@ -9,7 +9,7 @@ import Three from "../Three/Three";
 
 export default function Two(): JSX.Element {
 
-    const {color, update} = useContextSelector(ThemeContext, v => v)
+    const {color, update} = useContext(ThemeContext)
 
     const updateContext = () => {
         console.log('click');
